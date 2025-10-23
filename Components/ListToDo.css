@@ -1,0 +1,11 @@
+.list-todo-container {
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+.tasks-list-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}

@@ -1,0 +1,40 @@
+.todo-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111;
+    border: 1px solid #00bfff;
+    border-radius: 8px;
+    padding: 12px 15px;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.todo-container:hover {
+    background-color: #222;
+    transform: translateY(-2px);
+}
+
+.todo-text {
+    cursor: pointer;
+    color: #00bfff;
+    word-break: break-word;
+}
+
+.todo-container.completed .todo-text {
+    text-decoration: line-through;
+    color: #3399ff;
+}
+
+.todo-icon-container {
+    cursor: pointer;
+}
+
+.todo-icon {
+    font-size: 22px;
+    color: #00bfff;
+    transition: color 0.3s;
+}
+
+.todo-icon-container:hover .todo-icon {
+    color: #0099cc;
+}
